@@ -14,8 +14,7 @@ export class InactiveUsersComponent implements OnInit {
   users: string[] = [];
  
   onSetToActive(id: number) {
-    this.usersService.setToActive(id);
-    ++this.counterService.counter;
+    this.usersService.setToActive(id);  
   }
 
   ngOnInit(){  
